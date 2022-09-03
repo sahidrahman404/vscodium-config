@@ -1,0 +1,122 @@
+{
+  "editor.suggestSelection": "first",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.cursorBlinking": "solid",
+  "editor.fontFamily": "JetBrainsMono Nerd Font, Hack, Menlo, Monaco, 'Courier New', monospace",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/node_modules": true
+  },
+  "editor.minimap.enabled": false,
+  "terminal.external.linuxExec": "/usr/bin/alacritty",
+
+  "emmet.showSuggestionsAsSnippets": true,
+  "git.autofetch": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  "keyboard.dispatch": "keyCode",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "amVim.smartRelativeLineNumbers": true,
+  "amVim.useSystemClipboard": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": false,
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "editor.renderWhitespace": "boundary",
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "javascript.validate.enable": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "breadcrumbs.enabled": true,
+  "grunt.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "npm.runSilent": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnPaste": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "php.suggest.basic": false,
+  "workbench.colorTheme": "Night Owl",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "window.menuBarVisibility": "toggle",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "instagram",
+      "database": "instagram",
+      "username": "rahman",
+      "password": ""
+    }
+  ],
+  "zenMode.hideLineNumbers": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "html.format.wrapLineLength": 90,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "editor.experimental.stickyScroll.enabled": true,
+  "editor.cursorSurroundingLines": 999999999,
+  "workbench.activityBar.visible": false
+}
